@@ -1,16 +1,16 @@
 spring: 
-	profiles: 
-	  active: 
-	  - dev
+    profiles: 
+      active: 
+      - dev
 ---
 spring:
-	profiles: dev     #开发环境
-	application: 
-		name: microservicecloud-config-wdc-dev
+    profiles: dev     #开发环境
+    application: 
+        name: microservicecloud-config-wdc-dev
 ---
 spring:
-	profiles: test     #测试环境
-	application: 
-		name: microservicecloud-config-wdc-test
+    profiles: test     #测试环境
+    application: 
+        name: microservicecloud-config-wdc-test
 
 #一定要保存为 utf-8 格式
